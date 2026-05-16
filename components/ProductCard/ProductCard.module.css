@@ -1,0 +1,118 @@
+.card {
+  background: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra);
+}
+
+.imagemLink {
+  position: relative;
+  display: block;
+}
+
+.imagem {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.categoria {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--cor-primaria);
+  color: #000;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.corpo {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.nomeLink {
+  display: block;
+}
+
+.nome {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+.nomeLink:hover .nome {
+  color: var(--cor-primaria);
+}
+
+.descricao {
+  font-size: 0.82rem;
+  color: var(--cor-texto-suave);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--cor-borda);
+}
+
+.preco {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+}
+
+.acoes {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btnCarrinho {
+  background: transparent;
+  border: 1.5px solid var(--cor-borda);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--cor-texto-suave);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btnCarrinho:hover {
+  border-color: var(--cor-primaria);
+  color: var(--cor-primaria);
+}
+
+.btnCarrinho:hover {
+  opacity: 0.8;
+}

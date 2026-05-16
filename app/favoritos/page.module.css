@@ -1,0 +1,50 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.topo {
+  margin-bottom: 2rem;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--cor-texto);
+}
+
+.subtitulo {
+  color: var(--cor-texto-suave);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.vazio {
+  text-align: center;
+  padding: 4rem 0;
+  color: var(--cor-texto-suave);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.btnPrimario {
+  background: var(--cor-primaria);
+  color: #000;
+  font-weight: 700;
+  padding: 0.75rem 1.8rem;
+  border-radius: var(--raio-borda);
+  transition: opacity 0.2s;
+}
+
+.btnPrimario:hover {
+  opacity: 0.85;
+}

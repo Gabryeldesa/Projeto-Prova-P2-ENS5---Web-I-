@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--cor-secundaria);
+  border-top: 2px solid var(--cor-primaria);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.texto {
+  color: var(--cor-primaria);
+  font-weight: 600;
+}
+
+.sub {
+  color: var(--cor-texto-suave);
+  font-size: 0.85rem;
+}

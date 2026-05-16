@@ -1,0 +1,103 @@
+.header {
+  background-color: var(--cor-secundaria);
+  border-bottom: 2px solid var(--cor-primaria);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.link {
+  color: var(--cor-texto-suave);
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--cor-primaria);
+}
+
+.link svg {
+  transition: stroke 0.2s;
+}
+
+.link:hover svg {
+  stroke: var(--cor-primaria);
+}
+
+.carritoLink {
+  position: relative;
+  color: var(--cor-texto-suave);
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.carritoLink:hover {
+  color: var(--cor-primaria);
+}
+
+.carritoLink:hover svg {
+  stroke: var(--cor-primaria);
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: var(--cor-primaria);
+  color: #000;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav {
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .link span {
+    display: none;
+  }
+}
