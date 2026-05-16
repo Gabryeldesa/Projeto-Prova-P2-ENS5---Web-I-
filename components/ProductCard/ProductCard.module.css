@@ -112,7 +112,3 @@
   border-color: var(--cor-primaria);
   color: var(--cor-primaria);
 }
-
-.btnCarrinho:hover {
-  opacity: 0.8;
-}

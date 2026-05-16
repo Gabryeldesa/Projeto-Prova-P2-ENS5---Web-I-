@@ -1,5 +1,6 @@
 'use client'
 
+import { Suspense } from 'react'
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import produtos from '@/data/produtos'
@@ -9,7 +10,7 @@ import styles from './page.module.css'
 
 const categorias = ['Todas', ...new Set(produtos.map(p => p.categoria))]
 
-export default function Produtos() {
+function ProdutosConteudo() {
   const searchParams = useSearchParams()
   const [busca, setBusca] = useState('')
   const [categoriaSelecionada, setCategoriaSelecionada] = useState('Todas')
@@ -65,5 +66,13 @@ export default function Produtos() {
         </div>
       )}
     </div>
+  )
+}
+
+export default function Produtos() {
+  return (
+    <Suspense fallback={<div style={{ padding: '2rem', color: '#fff' }}>Carregando produtos...</div>}>
+      <ProdutosConteudo />
+    </Suspense>
   )
 }
