@@ -1,21 +1,20 @@
-# ⚡ VoltLab — Kits de Robótica e Eletrônica
+# VoltLab — Kits de Robótica e Eletrônica
 
 Catálogo interativo de produtos desenvolvido como projeto acadêmico da disciplina de **Programação Web I** do curso de Engenharia de Software da UNIFAN.
 
-## 🔗 Links
+## Links
 
 - **Deploy:** https://projeto-prova-p2-ens-5-web-i-84ay.vercel.app/
 - **Repositório:** https://github.com/Gabryeldesa/Projeto-Prova-P2-ENS5---Web-I-
 
-## 👨‍💻 Equipe
+## Equipe
 
 | Nome | GitHub |
-|---|---|
 | Gabryel Albuquerque | [@Gabryeldesa](https://github.com/Gabryeldesa) |
-| Kauan Luiz | — |
-| Adrian Rezende | — |
+| Kauan Luiz | [@kauanluiz03](https://github.com/kauanluiz03) |
+| Adrian Rezende | [@Adrian-ESoftware](https://github.com/Adrian-ESoftware) |
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Next.js 15 (App Router)
 - React 19
@@ -25,7 +24,7 @@ Catálogo interativo de produtos desenvolvido como projeto acadêmico da discipl
 - Git + GitHub
 - Vercel (Deploy)
 
-## 📦 Funcionalidades
+## Funcionalidades
 
 - Catálogo com 30 produtos em 6 categorias
 - Busca em tempo real por nome e descrição
@@ -35,7 +34,7 @@ Catálogo interativo de produtos desenvolvido como projeto acadêmico da discipl
 - Página de detalhe por produto
 - Layout responsivo
 
-## 🚀 Como rodar localmente
+## Como rodar localmente
 
 ```bash
 git clone https://github.com/Gabryeldesa/Projeto-Prova-P2-ENS5---Web-I-.git
@@ -46,7 +45,7 @@ npm run dev
 
 Acesse http://localhost:3000
 
-## 📚 Disciplina
+## Disciplina
 
 - **Disciplina:** Programação Web I
 - **Professor:** Adriano Baião
