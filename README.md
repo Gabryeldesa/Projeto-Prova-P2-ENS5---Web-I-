@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ VoltLab — Kits de Robótica e Eletrônica
 
-## Getting Started
+Catálogo interativo de produtos desenvolvido como projeto acadêmico da disciplina de **Programação Web I** do curso de Engenharia de Software da UNIFAN.
 
-First, run the development server:
+## 🔗 Links
+
+- **Deploy:** https://projeto-prova-p2-ens-5-web-i-84ay.vercel.app/
+- **Repositório:** https://github.com/Gabryeldesa/Projeto-Prova-P2-ENS5---Web-I-
+
+## 👨‍💻 Equipe
+
+| Nome | GitHub |
+|---|---|
+| Gabryel Albuquerque | [@Gabryeldesa](https://github.com/Gabryeldesa) |
+| Kauan Luiz | — |
+| Adrian Rezende | — |
+
+## 🛠️ Tecnologias
+
+- Next.js 15 (App Router)
+- React 19
+- CSS Modules
+- Context API (useState, useContext)
+- File-based Routing
+- Git + GitHub
+- Vercel (Deploy)
+
+## 📦 Funcionalidades
+
+- Catálogo com 30 produtos em 6 categorias
+- Busca em tempo real por nome e descrição
+- Filtro por categoria
+- Adicionar/remover favoritos
+- Carrinho de compras com controle de quantidade
+- Página de detalhe por produto
+- Layout responsivo
+
+## 🚀 Como rodar localmente
 
 ```bash
+git clone https://github.com/Gabryeldesa/Projeto-Prova-P2-ENS5---Web-I-.git
+cd voltlab
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Disciplina
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Disciplina:** Programação Web I
+- **Professor:** Adriano Baião
+- **Turma:** ESN-5
+- **Avaliação:** P2
+- **Instituição:** Centro Universitário Alfredo Nasser — UNIFAN
